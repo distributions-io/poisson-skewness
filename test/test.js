@@ -131,10 +131,10 @@ describe( 'compute-skewness', function tests() {
 	});
 
 	it( 'should compute the distribution skewness when provided a number', function test() {
-		assert.strictEqual( skewness( 4 ), 0.5 );
-		assert.strictEqual( skewness( 8  ), 0.3535534 );
-		assert.strictEqual( skewness( 16  ), 0.25 );
-		assert.strictEqual( skewness( 32  ), 0.1767767 );
+		assert.closeTo( skewness( 4 ), 0.5, 1e-5 );
+		assert.closeTo( skewness( 8  ), 0.3535534, 1e-5 );
+		assert.closeTo( skewness( 16  ), 0.25, 1e-5 );
+		assert.closeTo( skewness( 32  ), 0.1767767, 1e-5 );
 	});
 
 	it( 'should compute the distribution skewness when provided a plain array', function test() {

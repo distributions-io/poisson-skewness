@@ -6,8 +6,8 @@ Skewness
 
 The [skewness](https://en.wikipedia.org/wiki/skewness) for a [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) random variable is
 
-<div class="equation" align="center" data-raw-text="\operatorname{}\left[ X \right] = " data-equation="eq:skewness">
-	<img src="" alt="skewness for a Poisson distribution.">
+<div class="equation" align="center" data-raw-text="\operatorname{skew}\left( X \right) = \lambda^{-\tfrac{1}{2}}" data-equation="eq:skewness">
+	<img src="https://cdn.rawgit.com/distributions-io/poisson-skewness/89cfc77f7d42a44cba14e8588578f1b7490f894b/docs/img/eqn.svg" alt="Skewness for a Poisson distribution.">
 	<br>
 </div>
 
