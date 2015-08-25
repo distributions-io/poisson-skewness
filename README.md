@@ -103,7 +103,10 @@ var lambda = [
 	{'x':[9,32]}
 ];
 
-var out = skewness( lambda, 'x|1', '|' );
+var out = skewness( lambda, {
+	'path': 'x|1',
+	'sep': '|'
+});
 /*
 	[
 		{'x':[9,~0.500]},
